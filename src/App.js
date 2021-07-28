@@ -16,8 +16,9 @@ function App() {
       setToken(token);
       return token;
     } catch (error) {
-      setToken(error);
+      //setToken(error);
       console.error(error);
+      alert(error);
       return error;
     }
   }
